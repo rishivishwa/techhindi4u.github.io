@@ -1,0 +1,221 @@
+
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <title> Machine Learning</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="indexstyle.css">
+      
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+    <div>
+        <h1>Tech
+        <span style="color: orange;">hindi4u</span>
+        </h1>
+    </div>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html" style="font-waight:bold; font-size:20px; padding-right:50px;">Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../contact.html" style="font-waight:bold; font-size:20px; padding-right:50px;">Contact</a>
+          </li>
+            <li class="nav-item">
+            <a class="nav-link" href="../aboutus.html" style="font-waight:bold; font-size:20px; padding-right:50px;">About</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="blog.html" style="font-waight:bold; font-size:20px; padding-right:50px;">Blog <span class="sr-only">(current)</span></a>
+          </li>
+          
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    
+    
+    
+     <div class="container row mt-4 ml-4" >
+        <div class=" main col-md-7 mx-auto " >
+            <p>जैसा कि हम जानते हैं कि हर एक दिन में डेटा लगभग 2.5 क्विंटल (quintillion) बाइट्स बढ़ जाता है, और यह आमतौर पर बढ़ने वाला      है। वर्ष 2020 में, यह 1.7MB से अधिक डेटा है जो हर उस व्यक्ति के लिए हर सेकंड बढ़ेगा जो पृथ्वी पर हैं। इसलिए, बड़ी मात्रा में डेटा       (जिसे बड़ा डेटा कहा जाता है) को बनाए रखने के लिए, हम मशीन लर्निंग का उपयोग करते हैं। आज Techhindi4u ब्लॉग में हमें मशीन        लर्निंग और उसके प्रकार और कुछ कई बिंदुओं पर चर्चा करनी चाहिए जिन पर चर्चा की जाती है</p>
+            <ul>
+                <li>परिभाषा</li>
+                <li>मशीन सीखने के प्रकार</li>
+                <li>लाभ</li>
+                <li>नुकसान</li>
+            </ul>
+      
+            <h3>मशीन लर्निंग क्या है?</h3><br>
+            <p>मशीन लर्निंग के नाम के अनुसार, मशीन कैसे सीख सकती है कि कैसे अनुभव, निर्देश, डेटा में पैटर्न बनाते हैं और भविष्य में सबसे अच्छे          निर्णय की भविष्यवाणी करते हैं। मशीन लर्निंग का मुख्य उद्देश्य कंप्यूटर को मानव सहायता में हस्तक्षेप किए बिना स्वचालित रूप से सीखने        की अनुमति देना है।<br><br>
+            <img src="../img/4.jpg"><br><br>
+                मशीन को प्रशिक्षित किया जा सकता है जो डेटासेट से पैटर्न का अनुसरण करता है और मशीन को प्रशिक्षित करने के बाद इसका परीक्षण किया जा सकता है। जब प्रशिक्षित और इसके द्वारा लागू किया गया परीक्षण प्रशिक्षित अनुपात में सटीकता पाता है: परीक्षण = 6: 4 या 7: 3 का अर्थ है कि प्रशिक्षित डेटा 60% या 70% होना चाहिए और परीक्षण डेटा 40% या 30% डेटासेट होना चाहिए । इसके लिए हम मशीन लर्निंग के एल्गोरिदम को लागू कर सकते हैं। लागू किए गए एल्गो के बाद यह किसी भी डेटासेट की भविष्यवाणी करता है जो इन समान पैटर्न का अनुसरण करता है।<br><br>
+                उदाहरण के लिए:<br>
+                तस्वीरों के संग्रह से, एक तस्वीर को बेतरतीब ढंग से चुना जाता है और मशीन हमें बताती है कि तस्वीर कुत्ते या बिल्ली या कुछ और है। आपको पता होगा कि मशीन हमें कैसे बताती है कि फोटो में कुत्ता, बिल्ली या कुछ और है। सबसे पहले, मशीन को फोटो से पहचानने के लिए कुछ पैटर्न को प्रशिक्षित किया जा सकता है। इसके बाद इसे आसानी से पहचाना जा सकता है कि यह कुत्ते, बिल्ली या किसी और चीज की फोटो है।</p>
+            <img src="../img/5.gif" height="10%" width="100%"><br>
+      
+            <h3>मशीन लर्निंग के लाभ (advantages):</h3><br>
+                1. Easily identifies trends and patterns<br>
+                2. No human intervention needed (automation)<br>
+                3. Continuous Improvement<br>
+                4. Handling multi-dimensional and multi-variety data<br>
+                5. Wide Applications<br><br>
+      
+            <h3>मशीन लर्निंग के नुकसान (disadvantages):</h3><br>
+                1. Data Acquisition<br>
+                2. Time and Resources<br>
+                3. Interpretation of Results<br>
+                4. High error-susceptibility<br><br>
+      
+            <h3>मशीन लर्निंग के प्रकार:</h3><br>
+            <p>मशीन लर्निंग के प्रकार इस प्रकार हैं:</p><br>
+            <img src="../img/2.PNG" width="70%"><br><br>
+
+            <h4>सुपरवाइज्ड मशीन लर्निंग एल्गोरिदम:</h4><br>
+            <p>नाम के अनुसार सुपरवाइज्ड लर्निंग मशीन को डेटासेट से इनपुट और आउटपुट द्वारा सीखने के लिए पर्यवेक्षण किया जा सकता है। पर्यवेक्षित          शिक्षण को इनपुट और आउटपुट दोनों में प्रशिक्षण डेटा को वर्गीकृत किया जा सकता है और यह डेटासेट पर वर्गीकरण अहंकार को लागू करता है     (जैसे कि नैवे बाय्स एल्गो)। डेटासेट पर इनपुट और आउटपुट दोनों की तरह एल्गोरिथ्म को लागू किया जा सकता है और सीखने के एल्गो को      लागू किया जाना चाहिए और पर्यवेक्षित मॉडल बनाना चाहिए।</p>
+            <img src="../img/6.png" width="100%"><br><br>
+      
+            <h4>Unsupervised मशीन लर्निंग एल्गोरिदम:</h4><br>
+            <p>Unsupervised का मतलब है कि इसने सलाह नहीं दी है। Unsupervised मशीन लर्निंग में, हमारे पास केवल क्लस्टर के रूप में इनपुट हो   सकते हैं और इसे डेटासेट की मदद से प्रशिक्षित किया जा सकता है जिसमें क्लस्टर हैं। इसके पास केवल इनपुट है ताकि, यह पता न चल सके कि    अगले चरणों में क्या हुआ है। यह केवल डेटा को विभिन्न समूहों में वर्गीकृत कर सकता है और डेटा के विश्लेषण के बाद इसे वर्गीकृत कर सकता     है। यह वर्गीकृत अल्गोस (जैसे के-मीन) का उपयोग कर सकता है।</p>
+            <img src="../img/7.png" width="100%"><br><br>
+      
+            <h4>सुदृढीकरण (Reinforcement) मशीन सीखने के एल्गोरिदम:</h4><br>
+            <p>रेनफोर्समेंट मशीन लर्निंग वह सीख है जिसमें एक एजेंट की आवश्यकता होती है जो पर्यावरण में कार्यों या गतिविधियों को करता है और कार्यों या    गतिविधियों को करने के बाद उसे इनाम और वातावरण मिलता है। इसमें एजेंट अपना कार्य सीख और कर सकता है। इस एल्गोरिदम को रिवॉर्ड /    पॉलिसी एक्टिविटीज भी कहा जाता है, यानी पेनल्टी या रिवार्ड मिलने के बाद, यह पॉलिसी को ओवर एरर बनाता है। इस तरह से एजेंट सीख      सकता है कि कार्य को कैसे करना है।</p>
+            <img src="../img/9.png" height="4.5%">
+        </div>
+        <div id="recent-posts-2" class="widget widget_recent_entries mt-4" style="float:right;">  
+            <h4 class="widget-title" style="text-align:center;font-waight:bold;">हाल ही में छपा Post</h4><br>    
+            <ul>
+                <li style="list-style:none;">
+                <h3>Translator</h3>
+
+                <div id="google_translate_element"></div>
+
+                <script type="text/javascript">
+                    function googleTranslateElementInit() {
+                        new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+                    }
+                </script>
+
+                <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> <hr>
+                </li>
+                <li style="list-style:none;">
+                <a href="http://techhindi4u.in/post/computer.html" style="text-decoration:none;color:orange;">कंप्यूटर क्या हैें?</a><hr>
+                </li>
+                
+                <li style="list-style:none;">
+                <a href="http://techhindi4u.in/post/internet.html" style="text-decoration:none;color:orange;">यदि आपका इंटरनेट स्लो है तो इस तकनीक का उपयोग करेहैें?</a><hr>
+                </li>
+               
+                
+                <li style="list-style:none;">
+                    <a href="http://techhindi4u.in/post/drive.html" style="text-decoration:none;color:orange;">बड़े आकार की फाइलें हटाना</a><hr>
+                </li>
+                                <li style="list-style:none;">
+                     <a href="http://techhindi4u.in/post/py.html" style="text-decoration:none;color:orange;">Python क्या है?</a><hr>
+                </li>
+                                <li style="list-style:none;">
+                     <a href="http://techhindi4u.in/post/python2.html" style="text-decoration:none;color:orange;">Operators Loop and Function in Python</a><hr>
+                </li>
+                <li style="list-style:none;">
+                     <a href="http://techhindi4u.in/post/replaceit.html" style="text-decoration:none;color:orange;">इंडियन Replace It</a><hr>
+                </li>
+                <li style="list-style:none;">
+                     <a href="http://techhindi4u.in/post/MagTapp.html" style="text-decoration:none;color:orange;">UC Browser को टक्कर देने आया MagTappt</a><hr>
+                </li>      
+            </ul>
+    </div>
+     </div>
+    
+    
+    
+    <!-- we are using java script for colleps navigation bar-->
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+    
+    
+    
+    <footer class="footer-distributed">
+        <div class="footer-left">
+            <h3>tech
+            <span>hindi4u</span>
+            </h3>
+            <p class="footer-links">
+            <a href="#">Home</a>
+            ·
+            <a href="#">term & condition</a>
+            ·
+            <a href="#">About</a>
+            ·
+            <a href="#">Contact</a>
+            </p>
+         
+            <p class="footer-company-name">techhindi4u &copy; 2020</p>
+        </div>
+     
+    <div class="footer-center">
+     
+        <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>Deoria</span>India</p>
+        </div>
+     
+        <div>
+            <i class="fa fa-phone"></i>
+            <p>+917800777687</p>
+        </div>
+     
+        <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="mailto:support@company.com">rishikesh@techhindi4u.in</a><br>
+            </p>
+            
+            </div>
+     
+    </div>
+     
+        <div class="footer-right">
+            <p class="footer-company-about">
+            <span>About the company</span>
+            &amp; SEO Learner.
+            </p>
+        <div class="footer-icons">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+        </div>
+     </div>
+    </footer>
+    
+    
+     <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
+   

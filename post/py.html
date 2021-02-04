@@ -1,0 +1,425 @@
+
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <title>Python</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="indexstyle.css">
+      
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+    <div>
+        <h1>Tech
+        <span style="color: orange;">hindi4u</span>
+        </h1>
+    </div>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html" style="font-waight:bold; font-size:20px; padding-right:50px;">Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../contact.html" style="font-waight:bold; font-size:20px; padding-right:50px;">Contact</a>
+          </li>
+            <li class="nav-item">
+            <a class="nav-link" href="../aboutus.html" style="font-waight:bold; font-size:20px; padding-right:50px;">About</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="blog.html" style="font-waight:bold; font-size:20px; padding-right:50px;">Blog <span class="sr-only">(current)</span></a>
+          </li>
+          
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    
+     <div class="container row mt-4 ml-4" >
+        <div class=" main col-md-7 mx-auto " >
+            <p>जब हम मशीन सीखना सीखना शुरू करते हैं, तो सबसे पहले हमें Pyhton language को सीखना होगा जो डेटा को संभालने में मदद करता है। Python में, हम Python और libraries की कुछ basics बातें जैसे कि NumPy, Pandas, matplot और Sci-kit learning सीख सकते हैं। आज हम Python के bacisc में ध्यान केंद्रित करते हैं।
+            <br>
+            आइए Python की basics बातें सीखना शुरू करें। सबसे पहले, हम Python की परिभाषा देख सकते हैं।
+            </p>
+            <br>
+            
+            <h3>Python क्या है?</h3>
+            <br>
+            <p>Python एक high-level भाषा है। यह बहुत सरल, सीधे आगे और केस संवेदनशील भाषा है। यह interpreter का उपयोग किया जाता है जिसमें यह इसे कोड लाइन वार पढ़ सकता है। सीखने के लिए वाक्य रचना को समझना बहुत सरल और आसान है और हम आसानी से कार्यक्रम को बनाए रख सकते हैं। यह उन मॉड्यूल और पैकेजों का समर्थन कर सकता है जिनका उपयोग libraries को आयात करके किया जा सकता है (जैसे कि Pandas, NumPy) और कार्यक्रम की modularity हो सकती है और कोड पुन: प्रयोज्य हो सकता है। यह एक Object-Oriented भाषा और डायनामिक प्रकार है। हम घोषणा के बिना चर का उपयोग कर सकते हैं।
+            <br>
+            कोई भी Python सीख सकता है या तो वे coding background या non-coding background से हैं।
+            <br>
+            <br>
+            उदाहरण: जब हम ’हैलो’ शब्द प्रिंट करते हैं:
+            </p>
+            
+            <img src="../img/py/py2.PNG" width="100%">
+            <br>
+            <br>
+            
+            <h3>विशेषताएं:</h3>
+            <br>
+            <p>Python की विशेषताएं हैं:</p>
+            <ul>
+                <li>Emphasis on the code readability</li>
+                <li>Automatic Memory Management</li>
+                <li>Dynamically Type</li>
+                <li>Large Library</li>
+                <li>Multi-paradigm programming language (such as Object-Oriented language)</li>
+                <li>Platform Independent</li>
+            </ul>
+            <br>
+            
+            <h3>Application:</h3>
+            <br>
+            <p>Python कई डोमेन में आवेदन पा सकते हैं, लेकिन यहां कुछ application हैं:</p>
+            <ul>
+                <li>Web Scraping</li>
+                <li>Web Development</li>
+                <li>Data Analysis</li>
+                <li>Machine Learning</li>
+                <li>Data Visualization </li>
+            </ul>
+            <br>
+            <p>यह सब application नहीं है। इसका उपयोग स्वचालन के लिए और कई अन्य कार्यों को करने के लिए भी किया जाता है। इसके बाद Python और Python के एक application, यानी, मशीन लर्निंग ब्लॉग, मैं इनमें से प्रत्येक application पर एक अलग ब्लॉग के साथ आ रहा हूं।
+            <br>
+            आइए इस Python ट्यूटोरियल में आगे बढ़ते हैं और समझते हैं कि वेरिएब Python में कैसे काम करते हैं।
+            <br>
+            हम variable को कैसे घोषित करते हैं और assign करते हैं?
+            </p>
+            <br>
+            <img src="../img/py/py3.PNG" width="100%">
+            <br>
+            <br>
+            <p>यहाँ, 'a' वेरिएबल है, ‘=' असाइन चिन्ह है और ' 5 ' वह मान है जिसे ' a ' वेरिएबल में असाइन किया जाना है।</p>
+            <br>
+            
+            <h3>डाटा प्रकार:</h3>
+            <br>
+            <p>अब, हम कुछ मुख्य डेटा प्रकारों पर चर्चा कर सकते हैं। कुछ डेटा प्रकार हैं:</p>
+            <ul>
+                <li>Numeric</li>
+                <li>List</li>
+                <li>Tuple</li>
+                <li>String</li>
+                <li>Set</li>
+                <li>Dictionary</li>
+            </ul>
+            <br>
+            <h3>संख्यात्मक (Numeric):</h3>
+            <br>
+            <p> नाम के अनुसार, संख्यात्मक डेटा प्रकार 1, 2, 3, आदि जैसे संख्यात्मक मानों को धारण करता है, संख्यात्मक मान पूर्णांक हो सकता है (जैसे -2, -1, 0, 1, 2), फ्लोट (जैसे 10.5, 8.4) और जटिल संख्या (10+ 6j)।</p>
+            <br>
+            <img src="../img/py/py4.PNG" width="100%">
+            <br>
+            <br>
+            <p>सूची के अगले डेटा प्रकार को देखने के लिए आगे बढ़ते हैं।</p>
+            <br>
+            
+            <h3>सूची (List):</h3>
+            <br>
+            <p>सूची पायथन में उपलब्ध सबसे बहुमुखी डेटाटाइप है जिसे वर्ग कोष्ठक के बीच अल्पविराम से अलग किए गए मान (आइटम) की सूची के रूप में लिखा जा सकता है। एरे की तरह ही सूची दें जिसमें इंडेक्सिंग शून्य (0) से शुरू होती है और हम सूची से तत्वों को आसानी से प्राप्त कर सकते हैं। सूची में तत्व डुप्लिकेट नहीं है (जैसे कि सूची में समान मूल्य नहीं हैं)।</p>
+            <br>
+            <img src="../img/py/py5.PNG" width="100%">
+            <br>
+            <br>
+            <h3>सूची में कुछ संचालन हैं:</h3>
+            <br>
+            <h3>अनुक्रमण:</h3>
+            <br>
+            • एकल value के लिए
+            <br>
+            <img src="../img/py/py6.PNG" width="100%">
+            <br>
+            <br>
+            • कई value के लिए
+            <br>
+            <img src="../img/py/py7.PNG" width="100%">
+            <br>
+            <br>
+            • अंतिम value के लिए
+            <br>
+            <img src="../img/py/py8.PNG" width="100%">
+            <br>
+            <br>
+            
+            <h3>value को अद्यतन करना:</h3>
+            <br>
+            <img src="../img/py/py9.PNG" width="100%">
+            <br>
+            <br>
+            <h3>सूची की लंबाई कितनी है?:</h3>
+            <br>
+            <img src="../img/py/py10.PNG" width="100%">
+            <br>
+            <br>
+            <h3>सूची को उलट दें:</h3>
+            <br>
+            <img src="../img/py/py11.PNG" width="100%">
+            <br>
+            <br>
+            <h3>सूची से तत्व को हटाएं:</h3>
+            <br>
+            <img src="../img/py/py12.PNG" width="100%">
+            <br>
+            <br>
+            <p>अब, अगला मोड़ टुपल्स है। आइए देखते हैं कि ट्यूपल्स Python में क्या कहना चाहते हैं।</p>
+            <br>
+
+            <h3>Tuples:</h3>
+            <br>
+            <p>एक Tuple वस्तुओं का एक संग्रह है जो आदेश दिया और अपरिवर्तनीय है। टुपल्स में, हम कोष्ठक का उपयोग करते हैं। Tuples सूची के समान है, लेकिन Tuples में हम वर्ग ब्रैकेट के बजाय तत्वों और कोष्ठकों को हटा, अद्यतन या जोड़ नहीं सकते हैं।</p>
+            <br>
+            <img src="../img/py/py13.PNG" width="100%">
+            <br>
+            <br>
+            <p>Tuples में संचालन सूची के समान है, लेकिन हम सूची के रूप में tuple में अपडेट, डिलीट या जोड़ नहीं सकते हैं।
+            <br>   
+            तो, ट्यूपल्स के सभी संचालन को सूची के रूप में निष्पादित किया जाना है जैसे कि सभी अनुक्रमण, लंबाई, रिवर्स।
+            <br>
+            ताकि, आप टुपल्स का सारा संचालन स्वयं कर सकें।
+            <br>
+            अब, ब्लॉग का अगला शब्द स्ट्रिंग्स है।
+            </p>
+            <br>
+
+            <h3>String:</h3>
+            <p>Python में स्ट्रिंग्स सबसे लोकप्रिय डेटा प्रकारों में से हैं। String शब्दों का एक समूह है। String उन्हें केवल उद्धरणों (“’ या "") में वर्णों को संलग्न करके बना सकते हैं। Python बिल्कुल उसी String में सिंगल और डबल कोट्स का इलाज करता है।
+            </p>
+            <br>
+            <img src="../img/py/py14.PNG" width="100%">
+            <br>
+            <br>
+            <h3>String का संचालन:</h3>
+            <br>
+            <h3>String की लंबाई</h3>
+            <br>
+            <img src="../img/py/py15.PNG" width="100%">
+            <br>
+            <br>
+            <h3>अनुक्रमण</h3>
+            <br>
+            <img src="../img/py/py16.PNG" width="100%">
+            <br>
+            <br>
+            <h3>स्ट्रिंग उल्टा</h3>
+            <br>
+            <img src="../img/py/py17.PNG" width="100%">
+            <br>
+            <br>
+            <h3>स्ट्रिंग का ऊपरी अक्षर</h3>
+            <br>
+            <img src="../img/py/py18.PNG" width="100%">
+            <br>
+            <br>
+            <h3>स्ट्रिंग का निचला अक्षर</h3>
+            <br>
+            <img src="../img/py/py19.PNG" width="100%">
+            <br>
+            <br>
+            <p>इस ब्लॉग के अगले कार्यकाल में सेट है।</p>
+            <br>
+            
+            <h3>सेट (Set):</h3>
+            <br>
+            <p>एक सेट अव्यवस्थित वस्तुओं या तत्वों का एक संग्रह है। जब हम एक सेट बनाते हैं तो सभी आइटम या तत्व घुंघराले ब्रेस के अंदर रखे जाते हैं (जैसे {1, 2, 4}) और अल्पविराम द्वारा अलग कर दिया जाता है। जब आप एक तत्व को दो बार समय देते हैं (जैसे {1, 2, 3, 2})) तो उससे केवल एक ही तत्व लेता है (जैसे {1, 2, 3})।</p>
+            <br>
+            <img src="../img/py/py20.PNG" width="100%">
+            <br>
+            <br>
+            <h3>सेट के कुछ संचालन</h3>
+            <br>
+            <h3>संघ(Union):</h3>
+            <br>
+            <p>ए और बी के संघ दोनों सेटों से सभी तत्वों का एक सेट है जिसका अर्थ है कि सेट ए और सेट बी के तत्वों को गठबंधन करना है। संघ का उपयोग किया जाता है (|) ऑपरेटर।</p>
+            <br>
+            <img src="../img/py/py21.PNG" width="100%">
+            <br>
+            <br>
+            <h3>चौराहे(Intersection):</h3>
+            <br>
+            <p>इंटरसेक्शन का मतलब है कि जब ए और बी दो सेट होते हैं और दोनों सेट में सामान्य तत्वों का चयन करते हैं। और ऑपरेटर का उपयोग करके अंतर्ग्रहण किया जाता है।</p>
+            <br>
+            <img src="../img/py/py22.PNG" width="100%">
+            <br>
+            <br>
+            <h3>अंतर(Difference):</h3>
+            <br>
+            <p>ए और बी का अंतर (ए - बी) उन तत्वों का एक समूह है जो केवल ए में हैं लेकिन बी में नहीं हैं इसका मतलब है कि केवल उन तत्वों को ए से चुना जाना चाहिए जो बी में मौजूद नहीं हैं। इसी तरह, बी - ए एक है B में तत्वों का सेट लेकिन A में नहीं।</p>
+            <br>
+            <img src="../img/py/py23.PNG" width="100%">
+            <br>
+            <br>
+            <h3>सममित अंतर(Symmetric Difference):</h3>
+            <br>
+            <p>सममितीय अंतर में, हम दो सेट A और B में से सामान्य तत्वों को नहीं चुन सकते हैं। Symmetric अंतर का प्रतीक ^ है।</p>
+            <br>
+            <img src="../img/py/py24.PNG" width="100%">
+            <br>
+            <br>
+            <p>अब, अंतिम डेटाटाइप का शब्द शब्दकोश है।</p>
+            <br>
+
+            <h3>Dictionary:</h3>
+            <br>
+            <p>डिक्शनरी में, इसमें घुंघराले ब्रेस के भीतर and की और वैल्यू ’जोड़े हो सकते हैं। कुंजी और मान (:) के साथ अलग हो जाते हैं।</p>
+            <br>
+            <img src="../img/py/py25.PNG" width="100%">
+            <br>
+            <br>
+            <h3>Dictionary  संचालन:</h3>
+            <br>
+            <h3>पहुँच तत्व:</h3>
+             <br>
+            <img src="../img/py/py26.PNG" width="100%">
+            <br>
+            <br>
+            <h3>तत्वों को अपडेट करें और जोड़ें:</h3>
+            <br>
+            <img src="../img/py/py27.PNG" width="100%">
+            <br>
+            <br>
+            <p>अगले ब्लॉग में, हम विभिन्न प्रकार के ऑपरेटरों, लूप और फ़ंक्शन के बारे में चर्चा करेंगे।</p>
+            <br>
+    
+                
+            </div>
+        <div id="recent-posts-2" class="widget widget_recent_entries mt-4" style="float:right;">  
+            <h4 class="widget-title" style="text-align:center;font-waight:bold;">हाल ही में छपा Post</h4><br>    
+            <ul>
+                <li style="list-style:none;">
+                <h3>Translator</h3>
+
+                <div id="google_translate_element"></div>
+
+                <script type="text/javascript">
+                    function googleTranslateElementInit() {
+                        new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+                    }
+                </script>
+
+                <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> <hr>
+                </li>
+                
+                <li style="list-style:none;">
+                <a href="http://techhindi4u.in/post/computer.html" style="text-decoration:none;color:orange;">कंप्यूटर क्या हैें?</a><hr>
+                </li>
+                
+                <li style="list-style:none;">
+                <a href="http://techhindi4u.in/post/internet.html" style="text-decoration:none;color:orange;">यदि आपका इंटरनेट स्लो है तो इस तकनीक का उपयोग करेहैें?</a><hr>
+                </li>
+                <li style="list-style:none;">
+                    <a href="http://techhindi4u.in/post/ml.html" style="text-decoration:none;color:orange;">मशीन लर्निंग क्या है</a><hr>
+                </li>
+                
+                <li style="list-style:none;">
+                    <a href="http://techhindi4u.in/post/drive.html" style="text-decoration:none;color:orange;">बड़े आकार की फाइलें हटाना</a><hr>
+                </li>
+                                <li style="list-style:none;">
+                     <a href="http://techhindi4u.in/post/py.html" style="text-decoration:none;color:orange;">Python क्या है?</a><hr>
+                </li>
+                                <li style="list-style:none;">
+                     <a href="http://techhindi4u.in/post/python2.html" style="text-decoration:none;color:orange;">Operators Loop and Function in Python</a><hr>
+                </li>
+                
+                <li style="list-style:none;">
+                     <a href="http://techhindi4u.in/post/MagTapp.html" style="text-decoration:none;color:orange;">UC Browser को टक्कर देने आया MagTappt</a><hr>
+                </li>
+                      
+            </ul>
+    </div>
+     </div>
+
+    
+
+    
+    
+    <!-- we are using java script for colleps navigation bar-->
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+    
+    
+    
+    <footer class="footer-distributed">
+        <div class="footer-left">
+            <h3>tech
+            <span>hindi4u</span>
+            </h3>
+            <p class="footer-links">
+            <a href="#">Home</a>
+            ·
+            <a href="#">term & condition</a>
+            ·
+            <a href="#">About</a>
+            ·
+            <a href="#">Contact</a>
+            </p>
+         
+            <p class="footer-company-name">techhindi4u &copy; 2020</p>
+        </div>
+     
+    <div class="footer-center">
+     
+        <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>Deoria</span>India</p>
+        </div>
+     
+        <div>
+            <i class="fa fa-phone"></i>
+            <p>+917800777687</p>
+        </div>
+     
+        <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="mailto:support@company.com">rishikesh@techhindi4u.in</a><br>
+            </p>
+            
+            </div>
+     
+    </div>
+     
+        <div class="footer-right">
+            <p class="footer-company-about">
+            <span>About the company</span>
+            &amp; SEO Learner.
+            </p>
+        <div class="footer-icons">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+        </div>
+     </div>
+    </footer>
+    
+    
+     <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
+   
